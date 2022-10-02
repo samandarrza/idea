@@ -1,0 +1,329 @@
+body{
+    margin: auto;
+    font-family: 'Poppins', sans-serif;
+    z-index: 2;
+}
+.back{
+    z-index: -1;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 70vh;
+    background-position: center;
+    background: linear-gradient(0deg, black 0%, rgba(0, 0, 0, 0) 100%),url(https://logicsforest.com/themeforest/idea-homes/ideahomes_demo_files/images/banner-4.jpg);
+}
+.search{
+    width: 100%;
+    height: 40vh;
+    background-position: center;
+    background-image: url(https://logicsforest.com/themeforest/idea-homes/ideahomes_demo_files/images/property-search.jpg);
+}
+.menu{
+    z-index: 9;
+}
+.menu >li a{
+    color: white;
+}
+.menu >li a:hover{
+    color: gray;
+}
+.submenu > ul > li:hover{
+    background-color: red;
+}
+.menu .submenu > ul > li > a{
+    font-size: small;
+    color: gray!important;
+}
+.submenu > ul > li >a:hover{
+    color: white!important;
+}
+.resulation{
+    width: 60%;
+    margin: auto;
+}
+.resulation40{
+    width: 40%;
+    margin: auto;
+}
+
+.px48{
+    font-size: 48px;
+}
+.px36{
+    font-size: 36px;
+}
+.px24{
+    font-size: 24px;
+}
+.px16{
+    font-size: 16px;
+}
+.px8{
+    font-size: 12px;
+}
+
+.settingback{
+    width: 20%;
+    height: 20vh;
+    background-color: aliceblue;
+    position: fixed;
+    left: -15%;
+    top: 50%;
+}
+.settingback:hover{
+    left: 0;
+}
+
+.la-arrow-up{
+    color: aliceblue;
+    font-size: 48px;
+    margin: auto;
+}
+.la-envelope{
+    color: aliceblue;
+    margin: auto;
+}
+.kvadrat{
+    position: fixed;
+    right: 1%;
+    top: 90%;
+    width: 50px;
+    height: 50px;
+    background-color: red;
+    border-radius: 10px;
+}
+
+.arrow{
+    top: 84%;
+}
+
+.btn{
+    margin: 10px;
+    padding: 15px 35px;
+    font-size: 12px;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 250ms;
+    border: none;
+}
+.btn1{
+    text-transform: uppercase;
+    color: white;
+    background-color: orangered;
+}
+.btn2{
+    text-transform: uppercase;
+    color: black;
+    background-color: white;
+}
+.btn3{
+    padding: 15px 40px;
+    color: white;
+    background-color: orangered;
+}
+.btn4{
+    text-transform: uppercase;
+    color: white;
+    background-color: gray;
+}
+.btn4:hover{
+    background-color: white;
+    color: red;
+}
+
+.la-plus-circle{
+    font-size: 16px;
+}
+
+.btn2:hover , .btn1:hover{
+    color: black;
+    background-color: silver;
+}
+.any1{
+    width: 24%;
+    height: 40px;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+.any2{
+    width: 15%;
+    height: 40px;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+.placeholder{
+    color: red;
+}
+.line1{
+    margin: 5px;
+    width: 100px;
+    color: aliceblue;
+}
+.line2{    
+    margin: 5px;
+    width: 200px;
+    color: aliceblue;
+}
+.line3{
+    margin:5px;
+    width: 300px;
+    color: aliceblue;
+}
+.property{
+width: 30%;
+height: 30%;
+background-color: antiquewhite;
+}
+
+.a-all{
+    display: flex;
+    justify-content: space-between;
+    z-index: -1;
+}
+
+
+.a-item{
+    width: 30%;
+    background-size: 100%;
+    background-color: white;
+    height: 450px;
+    position: relative;
+    background-position: center;
+    transition: 0.5s;
+}
+.a-kvadrat{
+    padding: 0 30%;
+    top: 0;
+    position: absolute;
+    background-color: black;
+    transition: 0.5s;
+    opacity: 0;
+}
+
+.a-item:hover .a-kvadrat{
+    padding: 95px 30%;   
+    opacity: 0.8;
+}
+.paralax{
+    width: 100%;
+    height: 40vh;
+    background-position: center;
+    background-image: url(https://logicsforest.com/themeforest/idea-homes/ideahomes_demo_files/images/paralax-half.jpg);
+}
+.redbg{
+    background-color: red;
+    opacity: 0.9;
+}
+.icon{
+    font-size: 48px;
+    color: white;
+    padding: 1rem;
+}
+.best{
+    height: 52vh;
+}
+.great{
+    width: 100%;
+    height: 40vh;
+    background-position: center;
+    background-image: url(https://logicsforest.com/themeforest/idea-homes/ideahomes_demo_files/images/bg-text.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.meet{
+    background-color: aliceblue;
+    width: 100%;
+    height: 120vh;
+}
+
+.a-item2{
+    width: 50%;
+    background-size: 100%;
+    position: relative;
+}
+.a-kvdrt2{
+        padding: 8% 8%;
+        top: 10%;
+        left: 40%;
+        position: absolute;
+        background-color: whitesmoke;
+        transition: 0.5s;
+}
+
+.btn5{
+    padding: 20px 70px;
+    text-transform: uppercase;
+    color: white;
+    background-color: rgb(39, 39, 39);
+}
+.btn5:hover{
+    background-color: white;
+    color: red;
+}
+
+.personal{
+    text-align: center;
+    width: 22%;
+    background-size: 100%;
+    background-color: white;
+    height: 440px;
+    position: relative;
+    background-position: center;
+}
+.info{
+    top: 0;
+    position: absolute;
+    background-color: red;
+    opacity: 0;
+}
+
+.personal:hover .info{
+    padding: 15% 22%;   
+    opacity: 0.95;
+}
+.point{
+    color: red;
+    cursor: pointer;
+}
+.point2{
+    color: white;
+    cursor: pointer;
+}
+.our{
+    width: 100%;
+    height: 40vh;
+}
+.contact{
+    width: 100%;
+    height: 25vh;
+    background-color: darkred;
+}
+.foot{
+    width: 100%;
+    height: 60vh;
+    background-color: black;
+}
+
+.silver{
+    color: silver;
+}
+.silver:hover{
+    color: red;
+}
+.square{
+    text-align: center;
+    margin: auto;
+    width: 44px;
+    height: 44px;
+    padding: 10px;
+    border: 2px;
+    border-radius: 2px;
+    background-color: rgb(23, 22, 22);
+    display: inline-block;
+}
+.square:hover{
+    background-color: red;
+}
+.email{
+    width: 200px;
+    height: 40px;
+}
