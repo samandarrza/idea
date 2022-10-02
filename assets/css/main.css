@@ -82,6 +82,7 @@ body{
 }
 .la-envelope{
     color: aliceblue;
+    font-size: 48px;
     margin: auto;
 }
 .kvadrat{
@@ -300,7 +301,7 @@ background-color: antiquewhite;
 }
 .foot{
     width: 100%;
-    height: 60vh;
+    height: 65vh;
     background-color: black;
 }
 
