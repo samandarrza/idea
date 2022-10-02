@@ -63,15 +63,16 @@ body{
 }
 
 .settingback{
-    width: 20%;
-    height: 20vh;
-    background-color: aliceblue;
+    width: 15%;
+    height: 12vh;
+    background-color: transparent;
     position: fixed;
-    left: -15%;
+    left: -13%;
     top: 50%;
+    border-radius: 10px;
 }
 .settingback:hover{
-    left: 0;
+    left: -5%;
 }
 
 .la-arrow-up{
@@ -327,3 +328,12 @@ background-color: antiquewhite;
     width: 200px;
     height: 40px;
 }
+
+
+.color {
+    height: 25px;
+    width: 25px;
+    background-color: red;
+    border-radius: 50%;
+    display: inline-block;
+  }
