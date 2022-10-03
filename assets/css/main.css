@@ -274,13 +274,17 @@ background-color: antiquewhite;
     background-position: center;
 }
 .info{
+    height: 0;
     top: 0;
+    height: 0;
     position: absolute;
     background-color: red;
     opacity: 0;
+    transition: 1s;
 }
 
 .personal:hover .info{
+    height: 100%;
     padding: 15% 22%;   
     opacity: 0.95;
 }
